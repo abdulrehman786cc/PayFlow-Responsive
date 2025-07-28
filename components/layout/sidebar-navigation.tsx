@@ -179,7 +179,18 @@ export default function SidebarNavigation({
             <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: "#0583f2" }}>
               <Bot className="h-5 w-5 text-white" />
             </div>
-            <span className="font-semibold text-white">PayFlow</span>
+            <div>
+                <h1 className="text-lg font-semibold text-gray-100">PayFlow</h1>
+                <p className="text-xs text-gray-400">
+                  Powered by{" "}
+                  <a
+                    href="https://clickchain.ai/"
+                    className="hover:text-talent-accent transition-colors text-[#0583E5]"
+                  >
+                    ClickChain.ai
+                  </a>
+                </p>
+              </div>
           </div>
         )}
         <Button
